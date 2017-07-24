@@ -42,7 +42,8 @@ player.addEventListener('photoload', evt => {
 // Mostramos los controles
 player.showsNativeControls = true;
 
-// ¿Vamos a reproducir todo el vídeo o sólo una parte?
+// ¿Cómo vamos a hacer la transición entre foto y vídeo?
+// También afecta a la duración total de la reproducción
 player.playbackStyle = LivePhotosKit.PlaybackStyle.FULL; // Completo
 //player.playbackStyle = LivePhotosKit.PlaybackStyle.HINT; // Parte
 
